@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1400" width="1040" height="1400" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">
+<rect width="1040" height="1400" fill="#fff"/>
+<text x="40" y="36" font-size="20" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Схема подключения — тренажёр Брайля</text>
+<text x="40" y="58" font-size="12" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Arduino Uno / Nano · DFPlayer Mini (HW-247A) · 6 кнопок PB22E06 с фиксацией · 4 обычные кнопки · динамик 8 Ом</text>
+<text x="40" y="94" font-size="15" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">1 · Плеер, питание, динамик</text>
+<rect x="60" y="112" width="210" height="250" rx="8" fill="#eef4fb" stroke="#2b6cb0" stroke-width="2.5"/>
+<rect x="600" y="112" width="210" height="250" rx="8" fill="#fdf3ec" stroke="#c05621" stroke-width="2.5"/>
+<text x="165" y="140" font-size="14" fill="#1a365d" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Arduino</text>
+<text x="165" y="158" font-size="10.5" fill="#7a8ba0" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Uno / Nano / Pro Mini</text>
+<text x="705" y="140" font-size="14" fill="#7b341e" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">DFPlayer Mini</text>
+<text x="705" y="158" font-size="10.5" fill="#a8836c" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">HW-247A</text>
+<circle cx="270" cy="190" r="5" fill="#d64545"/>
+<text x="258" y="194" font-size="12" fill="#1a365d" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">5V</text>
+<line x1="270" y1="190" x2="600" y2="190" stroke="#d64545" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="270" cy="225" r="5" fill="#333"/>
+<text x="258" y="229" font-size="12" fill="#1a365d" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND</text>
+<line x1="270" y1="225" x2="600" y2="225" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="270" cy="270" r="5" fill="#dd8b1f"/>
+<text x="258" y="274" font-size="12" fill="#1a365d" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D11</text>
+<line x1="270" y1="270" x2="600" y2="270" stroke="#dd8b1f" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="270" cy="305" r="5" fill="#2b6cb0"/>
+<text x="258" y="309" font-size="12" fill="#1a365d" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D10</text>
+<line x1="270" y1="305" x2="600" y2="305" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="270" cy="340" r="5" fill="#2f855a"/>
+<text x="258" y="344" font-size="12" fill="#1a365d" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D12</text>
+<line x1="270" y1="340" x2="600" y2="340" stroke="#2f855a" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="600" cy="190" r="5" fill="#d64545"/>
+<text x="612" y="194" font-size="12" fill="#7b341e" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">VCC</text>
+<circle cx="600" cy="225" r="5" fill="#333"/>
+<text x="612" y="229" font-size="12" fill="#7b341e" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND</text>
+<circle cx="600" cy="270" r="5" fill="#dd8b1f"/>
+<text x="612" y="274" font-size="12" fill="#7b341e" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">RX</text>
+<circle cx="600" cy="305" r="5" fill="#2b6cb0"/>
+<text x="612" y="309" font-size="12" fill="#7b341e" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">TX</text>
+<circle cx="600" cy="340" r="5" fill="#2f855a"/>
+<text x="612" y="344" font-size="12" fill="#7b341e" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">BUSY</text>
+<text x="435" y="183" font-size="10.5" fill="#d64545" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">питание 5 В</text>
+<text x="435" y="218" font-size="10.5" fill="#555" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">общий GND — обязательно</text>
+<rect x="398" y="262" width="64" height="16" rx="3" fill="#fff" stroke="#dd8b1f" stroke-width="2.5"/>
+<text x="430" y="256" font-size="10.5" fill="#dd8b1f" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">1 кОм</text>
+<text x="300" y="299" font-size="10" fill="#2b6cb0" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">TX плеера → D10</text>
+<text x="300" y="334" font-size="10" fill="#2f855a" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">BUSY → D12</text>
+<line x1="520" y1="190" x2="520" y2="203" stroke="#d64545" stroke-width="2" stroke-linecap="round"/>
+<line x1="520" y1="211" x2="520" y2="225" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+<line x1="506" y1="203" x2="534" y2="203" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+<line x1="506" y1="211" x2="534" y2="211" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+<text x="496" y="201" font-size="10.5" fill="#555" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">470–1000 мкФ  +</text>
+<circle cx="810" cy="240" r="5" fill="#c05621"/>
+<circle cx="810" cy="280" r="5" fill="#c05621"/>
+<text x="798" y="244" font-size="12" fill="#7b341e" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">SPK1</text>
+<text x="798" y="284" font-size="12" fill="#7b341e" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">SPK2</text>
+<line x1="810" y1="240" x2="872" y2="240" stroke="#c05621" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="872" y1="240" x2="872" y2="252" stroke="#c05621" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="872" y1="252" x2="880" y2="252" stroke="#c05621" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="810" y1="280" x2="872" y2="280" stroke="#c05621" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="872" y1="280" x2="872" y2="268" stroke="#c05621" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="872" y1="268" x2="880" y2="268" stroke="#c05621" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="880" y="246" width="18" height="28" fill="#444"/>
+<polygon points="898,246 932,224 932,296 898,274" fill="#666"/>
+<text x="906" y="318" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">динамик 8 Ом</text>
+<text x="906" y="334" font-size="10" fill="#888" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">полярность любая</text>
+<rect x="60" y="376" width="920" height="46" rx="6" fill="#fff8e1" stroke="#e0c060" stroke-width="2"/>
+<text x="76" y="394" font-size="11.5" fill="#6b5900" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Динамик — ТОЛЬКО на SPK1 и SPK2 (там встроенный усилитель). Не на GND и не на DAC_R / DAC_L.</text>
+<text x="76" y="412" font-size="11.5" fill="#6b5900" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Конденсатор — прямо у выводов питания плеера. Питание 5 В, до 300 мА в пике; от 3.3 В модуль не работает.</text>
+<text x="40" y="454" font-size="15" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">2 · Распиновка DFPlayer Mini — вид сверху, 16 ножек</text>
+<rect x="390" y="474" width="260" height="240" rx="6" fill="#fdf3ec" stroke="#c05621" stroke-width="2.5"/>
+<circle cx="390" cy="496" r="4.5" fill="#d64545"/>
+<text x="374" y="500" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">1</text>
+<text x="402" y="500" font-size="11.5" fill="#d64545" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">VCC</text>
+<circle cx="390" cy="524" r="4.5" fill="#dd8b1f"/>
+<text x="374" y="528" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">2</text>
+<text x="402" y="528" font-size="11.5" fill="#dd8b1f" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">RX</text>
+<circle cx="390" cy="552" r="4.5" fill="#2b6cb0"/>
+<text x="374" y="556" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">3</text>
+<text x="402" y="556" font-size="11.5" fill="#2b6cb0" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">TX</text>
+<circle cx="390" cy="580" r="4.5" fill="#b0b0b0"/>
+<text x="374" y="584" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">4</text>
+<text x="402" y="584" font-size="11.5" fill="#aaa" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">DAC_R</text>
+<circle cx="390" cy="608" r="4.5" fill="#b0b0b0"/>
+<text x="374" y="612" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">5</text>
+<text x="402" y="612" font-size="11.5" fill="#aaa" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">DAC_L</text>
+<circle cx="390" cy="636" r="4.5" fill="#c05621"/>
+<text x="374" y="640" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">6</text>
+<text x="402" y="640" font-size="11.5" fill="#c05621" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">SPK1</text>
+<circle cx="390" cy="664" r="4.5" fill="#333"/>
+<text x="374" y="668" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">7</text>
+<text x="402" y="668" font-size="11.5" fill="#333" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND</text>
+<circle cx="390" cy="692" r="4.5" fill="#c05621"/>
+<text x="374" y="696" font-size="11" fill="#999" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">8</text>
+<text x="402" y="696" font-size="11.5" fill="#c05621" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">SPK2</text>
+<circle cx="650" cy="496" r="4.5" fill="#2f855a"/>
+<text x="666" y="500" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">16</text>
+<text x="638" y="500" font-size="11.5" fill="#2f855a" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">BUSY</text>
+<circle cx="650" cy="524" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="528" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">15</text>
+<text x="638" y="528" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">USB−</text>
+<circle cx="650" cy="552" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="556" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">14</text>
+<text x="638" y="556" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">USB+</text>
+<circle cx="650" cy="580" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="584" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">13</text>
+<text x="638" y="584" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">ADKEY2</text>
+<circle cx="650" cy="608" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="612" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">12</text>
+<text x="638" y="612" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">ADKEY1</text>
+<circle cx="650" cy="636" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="640" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">11</text>
+<text x="638" y="640" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">IO2</text>
+<circle cx="650" cy="664" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="668" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">10</text>
+<text x="638" y="668" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND</text>
+<circle cx="650" cy="692" r="4.5" fill="#b0b0b0"/>
+<text x="666" y="696" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">9</text>
+<text x="638" y="696" font-size="11.5" fill="#aaa" text-anchor="end" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">IO1</text>
+<text x="520" y="586" font-size="12" fill="#7b341e" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">DFPlayer</text>
+<text x="520" y="604" font-size="12" fill="#7b341e" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Mini</text>
+<text x="520" y="628" font-size="10" fill="#a8836c" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">слот microSD</text>
+<text x="520" y="644" font-size="10" fill="#a8836c" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">с торца модуля</text>
+<text x="60" y="500" font-size="12" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Подключаем 7 ножек:</text>
+<text x="60" y="524" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">1  VCC → 5 В</text>
+<text x="60" y="546" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">2  RX ← D11 через 1 кОм</text>
+<text x="60" y="568" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">3  TX → D10</text>
+<text x="60" y="590" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">6  SPK1 → динамик</text>
+<text x="60" y="612" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">7  GND → общий GND</text>
+<text x="60" y="634" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">8  SPK2 → динамик</text>
+<text x="60" y="656" font-size="11.5" fill="#333" text-anchor="start" font-family="Consolas, DejaVu Sans Mono, monospace">16 BUSY → D12</text>
+<text x="60" y="690" font-size="10.5" fill="#888" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Ножка 1 — угол с точкой / квадратной площадкой.</text>
+<text x="690" y="500" font-size="12" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Не используем:</text>
+<text x="690" y="524" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">DAC_R, DAC_L — выход на наушники</text>
+<text x="690" y="544" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">или внешний усилитель; нам не нужен,</text>
+<text x="690" y="564" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">у нас динамик прямо на SPK1/SPK2.</text>
+<text x="690" y="604" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">USB+, USB− — не нужны.</text>
+<text x="690" y="644" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">ADKEY1/2, IO1/IO2 — режим кнопок</text>
+<text x="690" y="664" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">без Arduino, нам не нужен.</text>
+<text x="690" y="704" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND (10) — второй «земляной»,</text>
+<text x="690" y="724" font-size="11" fill="#777" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">можно взять вместо 7-го.</text>
+<text x="40" y="758" font-size="15" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">3 · Кнопка PB22E06 (DPDT, 6 ножек) — куда их</text>
+<rect x="300" y="784" width="170" height="170" rx="6" fill="#f2f2f2" stroke="#333" stroke-width="2.5"/>
+<circle cx="385" cy="869" r="36" fill="#e4e4e4" stroke="#999" stroke-width="2"/>
+<text x="385" y="866" font-size="10" fill="#555" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">PB22E06</text>
+<text x="385" y="881" font-size="9.5" fill="#888" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">с фиксацией</text>
+<circle cx="300" cy="812" r="5" fill="#333"/>
+<circle cx="470" cy="812" r="5" fill="#b0b0b0"/>
+<circle cx="300" cy="869" r="5" fill="#333"/>
+<circle cx="470" cy="869" r="5" fill="#b0b0b0"/>
+<circle cx="300" cy="926" r="5" fill="#333"/>
+<circle cx="470" cy="926" r="5" fill="#b0b0b0"/>
+<line x1="300" y1="812" x2="150" y2="812" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<text x="225" y="804" font-size="11" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">крайняя → D2</text>
+<line x1="300" y1="869" x2="150" y2="869" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<text x="225" y="861" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">СРЕДНЯЯ (COM) → GND</text>
+<line x1="300" y1="926" x2="150" y2="926" stroke="#b0b0b0" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,4"/>
+<text x="225" y="918" font-size="10" fill="#999" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">или эта крайняя — если наоборот</text>
+<circle cx="150" cy="812" r="5" fill="#2b6cb0"/>
+<text x="138" y="816" font-size="11" fill="#2b6cb0" text-anchor="end" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D2</text>
+<line x1="150" y1="869" x2="150" y2="952" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="139.0" y1="952" x2="161.0" y2="952" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="143.0" y1="958" x2="157.0" y2="958" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="147.0" y1="964" x2="153.0" y2="964" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<text x="168" y="962" font-size="11" fill="#333" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND</text>
+<text x="490" y="869" font-size="11" fill="#999" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">вторая группа из 3 ножек — свободна</text>
+<text x="490" y="790" font-size="12" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Как найти нужные ножки мультиметром</text>
+<text x="490" y="814" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">1. Режим прозвонки (писк). Нажми и зафиксируй кнопку.</text>
+<text x="490" y="834" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">2. Найди пару ножек, которые пищат в нажатом состоянии.</text>
+<text x="490" y="854" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">3. Та из них, что СРЕДНЯЯ в своём ряду — это COM → на GND.</text>
+<text x="490" y="874" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">4. Вторая (крайняя) → на пин Arduino (D2…D7).</text>
+<text x="490" y="894" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">5. Ряд из 3 ножек = одна группа. Групп две; вторая не нужна.</text>
+<text x="490" y="934" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Резистор не нужен: вход подтянут внутри (INPUT_PULLUP).</text>
+<text x="490" y="954" font-size="11" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Нажата = замкнута на GND = LOW.</text>
+<text x="40" y="1002" font-size="15" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">4 · Все 10 кнопок: сигнал — на свой пин, общий — на одну шину GND</text>
+<line x1="70" y1="1150" x2="990" y2="1150" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+<text x="105" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">точка 1</text>
+<text x="105" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D2</text>
+<line x1="105" y1="1062" x2="105" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="105" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="105" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="94" y1="1118" x2="116" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="105" y1="1120" x2="105" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="105" cy="1150" r="4" fill="#333"/>
+<text x="200" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">точка 2</text>
+<text x="200" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D3</text>
+<line x1="200" y1="1062" x2="200" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="200" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="200" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="189" y1="1118" x2="211" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="200" y1="1120" x2="200" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="200" cy="1150" r="4" fill="#333"/>
+<text x="295" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">точка 3</text>
+<text x="295" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D4</text>
+<line x1="295" y1="1062" x2="295" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="295" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="295" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="284" y1="1118" x2="306" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="295" y1="1120" x2="295" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="295" cy="1150" r="4" fill="#333"/>
+<text x="390" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">точка 4</text>
+<text x="390" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D5</text>
+<line x1="390" y1="1062" x2="390" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="390" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="390" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="379" y1="1118" x2="401" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="390" y1="1120" x2="390" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="390" cy="1150" r="4" fill="#333"/>
+<text x="485" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">точка 5</text>
+<text x="485" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D6</text>
+<line x1="485" y1="1062" x2="485" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="485" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="485" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="474" y1="1118" x2="496" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="485" y1="1120" x2="485" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="485" cy="1150" r="4" fill="#333"/>
+<text x="580" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">точка 6</text>
+<text x="580" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D7</text>
+<line x1="580" y1="1062" x2="580" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="580" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="580" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="569" y1="1118" x2="591" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="580" y1="1120" x2="580" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="580" cy="1150" r="4" fill="#333"/>
+<text x="675" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Проверка</text>
+<text x="675" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D8</text>
+<line x1="675" y1="1062" x2="675" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="675" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="675" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="664" y1="1118" x2="686" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="675" y1="1120" x2="675" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="675" cy="1150" r="4" fill="#333"/>
+<text x="770" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Режим</text>
+<text x="770" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">D9</text>
+<line x1="770" y1="1062" x2="770" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="770" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="770" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="759" y1="1118" x2="781" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="770" y1="1120" x2="770" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="770" cy="1150" r="4" fill="#333"/>
+<text x="865" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Громк +</text>
+<text x="865" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">A0</text>
+<line x1="865" y1="1062" x2="865" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="865" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="865" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="854" y1="1118" x2="876" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="865" y1="1120" x2="865" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="865" cy="1150" r="4" fill="#333"/>
+<text x="960" y="1036" font-size="10" fill="#777" text-anchor="middle" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Громк −</text>
+<text x="960" y="1054" font-size="12" fill="#2b6cb0" text-anchor="middle" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">A1</text>
+<line x1="960" y1="1062" x2="960" y2="1100" stroke="#2b6cb0" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="960" cy="1100" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="960" cy="1120" r="3.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="949" y1="1118" x2="971" y2="1103" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="960" y1="1120" x2="960" y2="1150" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="960" cy="1150" r="4" fill="#333"/>
+<text x="70" y="1176" font-size="12" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">GND Arduino (одна общая шина на все кнопки)</text>
+<text x="70" y="1200" font-size="11.5" fill="#555" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Кнопки с фиксацией (точки) и обычные без фиксации (Проверка / Режим / Громкость) подключаются одинаково.</text>
+<text x="70" y="1220" font-size="11.5" fill="#555" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Внешние резисторы не нужны — у всех входов включена внутренняя подтяжка к 5 В.</text>
+<rect x="60" y="1244" width="920" height="140" rx="6" fill="#f5f2ea" stroke="#8a7f6a" stroke-width="2.5"/>
+<text x="78" y="1268" font-size="13" fill="#111" text-anchor="start" font-weight="bold" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">Порядок сборки и типичные ошибки</text>
+<text x="78" y="1292" font-size="11.5" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">1. Сначала прошей ButtonTest.ino — он голосом назовёт номер каждой нажатой кнопки. Ошибку найдёшь за минуту.</text>
+<text x="78" y="1312" font-size="11.5" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">2. Тишина при включении? Проверь: FAT32, папка MP3 в корне, имена вида 0001.mp3, общий GND, 1 кОм на RX.</text>
+<text x="78" y="1332" font-size="11.5" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">3. Хрип и перезагрузки на громких фразах → нет конденсатора или слабое питание (нужно 5 В, хотя бы 1 А).</text>
+<text x="78" y="1352" font-size="11.5" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">4. Кнопка говорит при отпускании, а не при нажатии → перекинь провод на другую крайнюю ножку.</text>
+<text x="78" y="1372" font-size="11.5" fill="#444" text-anchor="start" font-family="Verdana, DejaVu Sans, Geneva, sans-serif">5. Хочешь меньше фона — питай плеер через диод 1N4007 от 5 В (выйдет ~4.3 В, это штатный режим модуля).</text>
+</svg>
